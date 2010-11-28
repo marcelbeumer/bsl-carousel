@@ -1,0 +1,10 @@
+Demonstration of a fast carousel running on jQuery.
+
+Applied strategy:
+ * Walk the DOM as little and as fast as possible.
+ * Don't walk the DOM after initialization.
+ * Only manipulate the elements you need to manipulate to get the visuals you need.
+ * Rather fast low level JavaScript than jQuery.
+ * Smart bookkeeping.
+
+Written by Marcel Beumer, www.marcelbeumer.com
