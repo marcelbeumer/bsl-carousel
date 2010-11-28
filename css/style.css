@@ -1,0 +1,16 @@
+body{background-color:#343434;}
+body, pre{font-size: 13px;line-height:1.5em;font-family: "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Arial, sans-serif;font-weight:300;}
+
+.carousel{position:relative;height:355px;}
+.carousel ul {position:absolute;left:0px;top:0px;list-style-type:none;}
+.carousel li{position:absolute;display:none;left:0;top:0;width:160px;height:120px;}
+.carousel-ie li{background-image: none;} /* no opacity and pnga for IE */
+.carousel strong {display:none;}
+.carousel-label{display:block;position:absolute;top:365px;left:130px;width:170px;zoom:1;height:20px;margin-left:10px;text-align:center;font-weight:bold;color:#fff;z-index:1000;font-size:14px;}
+.carousel-ie .carousel-label{background-color:#343434;} /* for IE we need a background color for the opacity to work when using ClearType. */
+.carousel-dbg-point{position:absolute;left:0;top:0;width:2px;height:2px;background-color:red;}
+
+.carousel img{border:10px solid #fff;-webkit-box-shadow:0 0 10px #000;-moz-box-shadow:0 0 10px #000;}
+
+.my-box{width:440px;margin:0 auto;padding:20px 30px 40px 10px;}
+.descr{color:#bbb;width:600px;margin:50px auto 0 auto;padding:20px;background-color:#222;-webkit-border-radius:10px;}

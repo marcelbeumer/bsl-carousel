@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Boomshakalaka carousel</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    </head>
+    <body class="no-js">
+        <div class="my-box">
+            <div class="carousel">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000004.JPG"/>
+                            <strong>Aap 4</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000010.JPG"/>
+                            <strong>Aap 10</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000011.JPG"/>
+                            <strong>Aap 11</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000012.JPG"/>
+                            <strong>Aap 12</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000029.JPG"/>
+                            <strong>Aap 29</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000031.JPG"/>
+                            <strong>Aap 31</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000055.JPG"/>
+                            <strong>Aap 55</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/00000062.JPG"/>
+                            <strong>Aap 62</strong>
+                        </a>
+                    </li>
+                </ul>
+                <div class="custom-label-decoration"></div>
+            </div>
+        </div>
+        
+        <div class="descr">
+            On this page the carousel contains only a few photos to demonstrate the functionality, but it is able to take hundreds of photo's without really slowing down. Even on IE6. To get it so fast, I applied to following strategy:
+            <ul>
+                <li>Walk the DOM as little and as fast as possible.</li>
+                <li>Don't walk the DOM after initialization.</li>
+                <li>Only manipulate the elements you need to manipulate to get the visuals you need.</li>
+                <li>Rather fast low level JavaScript than jQuery.</li>
+                <li>Smart bookkeeping.</li>
+            </ul>
+        </div>
+        
+        
+        <script type="text/javascript" charset="utf-8" src="js/jquery-1.4.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/carousel.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+                window.carousel($('.carousel')[0], 160, 120);
+            });
+        </script>
+    </body>
+</html>
